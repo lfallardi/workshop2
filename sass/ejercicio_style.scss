@@ -1,0 +1,174 @@
+@import "variables";
+
+body{
+	font-family: $fuente-principal;
+}
+
+
+h1{
+	position: relative;
+}
+
+header{
+	background-image: url("../assets/header.jpg");
+	background-size: cover;
+	height: 600px;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Times;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+a{
+	color: white;
+}
+
+
+section#whatyouneed{
+	background: $color-principal;
+	.container-fluid{
+		.row{
+			h1{
+				color: white;
+				font-size: 30px;
+			}
+		}
+		.line_white{
+			border-bottom: 3px solid white;
+			margin-top: 30px;
+			margin-bottom: 60px;	
+		}
+	}
+}
+
+.btn_header{
+	background: $color-principal;
+	font-weight: bold;
+	margin: 40px;
+}
+
+.btn_header-inverse{
+	background: white;
+	color: black;
+	font-weight: bold;
+	margin: 40px;
+}
+
+.line{
+	border-bottom: 3px solid $color-principal;
+	margin-bottom: 60px;
+}
+
+
+.navbar {
+    position: relative;
+    min-height: 0px;
+    margin-bottom: -60px;
+    border-bottom: 1px solid #9E9E9E;
+    border-radius: 0px;
+}
+
+.navbar-inverse {
+    background-color: white;
+    border: none;
+    .navbar-toggle{
+    	.icon-bar{
+    		background: $color-secundario;
+    	}
+    }
+}
+
+
+.navbar-brand-inverse {
+    color: $color-principal;
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.jumbotron {
+    margin-bottom: 30px;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#service{
+	i{
+		color: $color-principal;
+		font-size: 45px;
+		margin-bottom: 10px;
+	}
+	
+	h3{
+		color: black;
+		font-family: $fuente-principal;
+	}
+
+	p{
+		color: gray;
+		font-size: 14px;
+		margin-bottom: 30px;
+	}
+}
+
+#galeria{
+	.img_galery{
+		padding: 0px;
+	}
+
+	span{
+		text-align: center;
+		display: inline-block;
+		position: absolute;
+		vertical-align: top;
+		height: 150px;
+		width: 100%;
+		margin-top: -150px;
+		background: $color-principal;
+		opacity: 0.8;
+		h3{
+			display: block;
+			color: white;
+			font-size: 16px;
+			margin-top: 40px;
+			text-transform: uppercase;
+		}
+		p{
+			color: white;
+			font-family: $fuente-principal;
+			font-size: 20px;
+			text-align: center;
+		}
+	}
+	background: $color-secundario;
+	h1{
+		color: white;
+		font-size: 25px;
+	    margin-top: 30px;
+    	margin-bottom: -25px;
+	}
+}
+
+#footer{
+	h1{
+		color: $color-secundario;
+		margin-top: 70px;
+	}
+	p{
+		color: black;		
+	}
+	#contacto{
+		font-size: 30px;
+	}
+	.p_color{
+		color: $color-principal;
+	}
+}
+
