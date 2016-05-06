@@ -18,12 +18,6 @@ p {
 a {
   color: white; }
 
-a:hover {
-  color: #FFF;
-  background-color: grey;
-  opacity: 0.5;
-  text-decoration: none; }
-
 section#whatyouneed {
   background: #f05f40; }
   section#whatyouneed .container-fluid .row h1 {
@@ -129,5 +123,22 @@ section#whatyouneed {
   font-size: 30px; }
 #footer .p_color {
   color: #f05f40; }
+
+@media (max-width: 400px) {
+  .jumbotron {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 30px; }
+
+  .navbar-inverse .navbar-nav li a:hover {
+    color: #fff;
+    background-color: gray; }
+  .navbar-inverse .navbar-nav li a:focus {
+    color: #FFF;
+    background-color: gray;
+    font-weight: bold; } }
 
 /*# sourceMappingURL=ejercicio_style.css.map */
