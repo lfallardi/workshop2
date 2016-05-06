@@ -18,6 +18,12 @@ p {
 a {
   color: white; }
 
+a:hover {
+  color: #FFF;
+  background-color: grey;
+  opacity: 0.5;
+  text-decoration: none; }
+
 section#whatyouneed {
   background: #f05f40; }
   section#whatyouneed .container-fluid .row h1 {
@@ -91,7 +97,6 @@ section#whatyouneed {
     text-align: center;
     display: inline-block;
     position: absolute;
-    vertical-align: top;
     height: 150px;
     width: 100%;
     margin-top: -150px;
