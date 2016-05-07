@@ -24,14 +24,10 @@ p{
 
 a{
 	color: white;
-}
-
-a:hover{
-	color: #FFF;
-	background-color: grey;
-	opacity: 0.5;
 	text-decoration: none;
 }
+
+
 
 section#whatyouneed{
 	background: $color-principal;
@@ -178,4 +174,3 @@ section#whatyouneed{
 		color: $color-principal;
 	}
 }
-
