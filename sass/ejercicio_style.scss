@@ -61,7 +61,6 @@ section#whatyouneed{
 	margin-bottom: 60px;
 }
 
-
 .navbar {
     position: relative;
     min-height: 0px;
@@ -80,7 +79,6 @@ section#whatyouneed{
     	}
     }
 }
-
 
 .navbar-brand-inverse {
     color: $color-principal;
@@ -171,6 +169,7 @@ section#whatyouneed{
 	}
 }
 
+/*
 @media(max-width: 400px){
 	.jumbotron {
 	    margin-top: 10px;
@@ -180,6 +179,7 @@ section#whatyouneed{
 	    font-weight: bold;
 	    font-size: 30px;
 	}
+
 
 	.navbar-inverse {
 		.navbar-nav {
@@ -196,4 +196,24 @@ section#whatyouneed{
     		}
     	}
     }
+}
+*/
+
+@media(max-width: 640px){
+	.jumbotron {
+	    margin-top: 100px;
+	    margin-bottom: 30px;
+	    color: white;
+	    background-color: transparent;
+	    font-weight: bold;
+	    font-size: 30px;
+	}
+
+	.navbar{
+		a:hover{
+			color: $color-principal;
+			background-color: gray;
+			font-weight: bold;
+		}
+	}
 }
