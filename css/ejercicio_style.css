@@ -16,12 +16,7 @@ p {
   line-height: 20px; }
 
 a {
-  color: white; }
-
-a:hover {
-  color: #FFF;
-  background-color: grey;
-  opacity: 0.5;
+  color: white;
   text-decoration: none; }
 
 section#whatyouneed {
@@ -130,5 +125,19 @@ section#whatyouneed {
   font-size: 30px; }
 #footer .p_color {
   color: #f05f40; }
+
+@media (max-width: 568px) {
+  .jumbotron {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 30px; }
+
+  .navbar a:hover {
+    color: #f05f40;
+    background-color: gray;
+    font-weight: bold; } }
 
 /*# sourceMappingURL=ejercicio_style.css.map */
