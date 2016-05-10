@@ -135,7 +135,7 @@ section#whatyouneed {
     font-weight: bold;
     font-size: 30px; }
 
-  .navbar a:hover {
+  .pepito li:hover {
     color: #f05f40;
     background-color: gray;
     font-weight: bold; } }
